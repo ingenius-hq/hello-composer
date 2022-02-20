@@ -1,0 +1,22 @@
+{
+	"name": "ingenius-hq/hello-composer",
+	"description": "Test Composer Package",
+	"type": "library",
+	"require": {
+		"php": ">=5.6"
+	},
+	"license": "MIT",
+	"autoload": {
+		"psr-4": {
+			"IngeniusHq\\HelloComposer\\": "src/"
+		}
+	},
+	"authors": [
+		{
+			"name": "Omar Villafuerte",
+			"email": "ovillafuerte.94@gmail.com",
+			"homepage": "https://ovillafuerte94.is-a.dev"
+		}
+	],
+	"minimum-stability": "dev"
+}
